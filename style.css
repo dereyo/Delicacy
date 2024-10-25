@@ -627,22 +627,30 @@ header {
     .navbar a:hover ,
     .navbar , .home-text {
         border-radius: 0.5rem;
-        color: var(--bg-color);
+        /* color: var(--bg-color); */
     }
     .navbar .active {
         top: 100%;
     }
     .home-text h1 {
         font-size: 1.7rem;
+        margin: 20px;
+    }
+    .home-text span {
+        margin-top: 60px;
+        color: #2a38d0;
+        font-weight: bold;
     }
     .container img {
-        width: 390px;
+        width: 250px !important;
+        margin-left: 90px;
+        margin-bottom: 50px;
     }
     .btn {
         padding: 0.6rem 1.2rem ;
     }
     .products-conatiner {
-        grid-template-columns: repeat(auto-fit, minmax(244px,auto));
+        grid-template-columns: repeat(auto-fit, minmax(240px,auto));
     }
 }
 
