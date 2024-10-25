@@ -106,6 +106,7 @@ header {
 .navbar {
     display: flex;
     column-gap: 0.5rem;
+    position: relative;
 }
 
 .navbar a {
@@ -692,10 +693,26 @@ header {
 @media (max-width: 540px) {
     .container img {
         right: 0;
-        width: 370px;
+        width: 350px;
         height: 820px;
         object-fit: contain;
+        right: 5px;
     }
+    .home-text {
+        padding-bottom: 17rem;
+    }
+
+    .home-text span {
+        font-size: 0.8rem;
+    }
+    .home-text h1 {
+        font-size: 1.4rem;
+    }
+    .heading {
+        flex-direction: column;
+        text-align: center;
+    }
+    
 }
 
 @media (max-width: 370px) {
@@ -712,6 +729,7 @@ header {
     .home-text {
         padding-bottom: 17rem;
     }
+
     .home-text span {
         font-size: 0.8rem;
     }
